@@ -44,4 +44,5 @@ jobs:
         script: |
           cd /home/ubuntu/my-node-app
           npm install
-          sudo node index.js
+          npm install -g pm2
+          pm2 start index.js --name my-app
