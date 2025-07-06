@@ -44,4 +44,4 @@ jobs:
         script: |
           cd /home/ubuntu/my-node-app
           npm install
-          node index.js
+          sudo node index.js
